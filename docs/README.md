@@ -32,7 +32,7 @@ Browse our comprehensive process documentation to learn more about specific aspe
 
 - **[Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)** — Best practices for running effective retrospectives, tracking action items, and fostering a culture of continuous improvement through measurable changes.
 
-- **[Roles & Personas](octoacme-roles-and-personas.md)** — Detailed definitions of key roles (Developers, Product Managers, Project Managers) including responsibilities, goals, and typical communication patterns.
+- **[OctoAcme Personas](octoacme-roles-and-personas.md)** — Detailed definitions of key roles (Developers, Product Managers, Project Managers) including responsibilities, goals, and typical communication patterns.
 
 ## Contributing to Our Process
 
