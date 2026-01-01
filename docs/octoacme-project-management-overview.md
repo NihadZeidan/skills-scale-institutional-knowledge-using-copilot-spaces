@@ -14,11 +14,32 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM):** coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM):** defines outcomes, prioritizes backlog, and measures success.
+- **Developers:** implement features, collaborate on design and testability.
+- **QA Lead:** validates quality and acceptance criteria, manages test strategy.
+- **Agile Coach:** facilitates agile ceremonies and coaches team on best practices.
+- **Business Analyst:** elicits requirements and bridges stakeholder-development communication.
+- **UX/UI Designer:** designs user experiences and interfaces aligned with user needs.
+- **Stakeholders:** provide inputs and approvals.
+
+For detailed role definitions and responsibilities, see [OctoAcme Roles and Personas](octoacme-roles-and-personas.md).
+
+## Role Accountability Matrix
+
+| Phase | Project Manager | Product Manager | Developer | QA Lead | Agile Coach | Business Analyst | UX/UI Designer |
+|-------|----------------|-----------------|-----------|---------|-------------|------------------|----------------|
+| **Initiation** | Accountable for project charter | Responsible for problem statement & metrics | Consulted on technical feasibility | Consulted on testability | Consulted on process setup | Responsible for requirements gathering | Consulted on UX research needs |
+| **Planning** | Accountable for project plan & timeline | Accountable for backlog prioritization | Responsible for technical estimates | Responsible for test strategy | Accountable for sprint setup | Responsible for detailed requirements | Responsible for design mockups |
+| **Execution** | Accountable for coordination & risk | Informed of progress & blockers | Accountable for implementation | Accountable for quality validation | Responsible for ceremony facilitation | Consulted on requirement clarifications | Responsible for design implementation support |
+| **Release** | Accountable for deployment coordination | Accountable for go/no-go decision | Responsible for deployment execution | Accountable for release quality sign-off | Informed of release status | Responsible for UAT coordination | Responsible for UI validation |
+| **Retrospective** | Responsible for action tracking | Informed of process improvements | Participates in retrospective | Participates in retrospective | Accountable for retrospective facilitation | Participates in retrospective | Participates in retrospective |
+
+**RACI Legend:** 
+- **R**esponsible: Does the work
+- **A**ccountable: Ultimately answerable for completion
+- **C**onsulted: Provides input and expertise
+- **I**nformed: Kept up-to-date on progress
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +65,10 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+
+## Related Documentation
+- [OctoAcme Roles and Personas](octoacme-roles-and-personas.md) - Detailed role definitions and responsibilities
+- [Project Initiation Guide](octoacme-project-initiation.md) - Starting new projects
+- [Project Planning](octoacme-project-planning.md) - Creating actionable plans
+- [Execution & Tracking](octoacme-execution-and-tracking.md) - Day-to-day execution
+- [Risk Management & Communication](octoacme-risks-and-communication.md) - Managing risks and stakeholder communication
