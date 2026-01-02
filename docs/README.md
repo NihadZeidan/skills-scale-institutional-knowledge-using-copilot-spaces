@@ -6,7 +6,7 @@ Welcome to the OctoAcme project management documentation hub! Whether you're a n
 
 OctoAcme follows a structured five-phase project lifecycle that emphasizes iterative delivery, customer focus, and continuous improvement. Every project moves through **Initiation, Planning, Execution, Release, and Close & Retrospective** phases, with clear decision gates and artifacts at each stage. Our approach begins with a lightweight Project One-pager that captures the problem statement, success metrics, and stakeholder alignment, then evolves into detailed backlogs, sprint plans, and release schedules as work progresses.
 
-Throughout delivery, we maintain regular communication cadences including daily standups for delivery teams, weekly syncs between Project Managers and Product Managers, and monthly stakeholder updates. Our core roles work collaboratively: **Project Managers** coordinate schedules, risks, and communications; **Product Managers** define outcomes and prioritize work based on customer value; **Developers** build and test features; **QA/Testing** validates quality; and **Stakeholders** provide input and approvals. This clear ownership model ensures accountability while fostering psychological safety where everyone can contribute ideas and raise concerns.
+Throughout delivery, we maintain regular communication cadences including daily standups for delivery teams, weekly syncs between Project Managers and Product Managers, and monthly stakeholder updates. Our core roles work collaboratively: **Project Managers** coordinate schedules, risks, and communications; **Product Managers** define outcomes and prioritize work based on customer value; **Developers** build and test features; **QA Lead** validates quality and manages test strategy; **Agile Coach** facilitates ceremonies and coaches agile practices; **Business Analyst** elicits requirements and bridges stakeholder-development communication; **UX/UI Designer** creates user experiences aligned with user needs; and **Stakeholders** provide input and approvals. This clear ownership model ensures accountability while fostering psychological safety where everyone can contribute ideas and raise concerns.
 
 Quality and risk management are embedded throughout our process. We enforce rigorous quality gates including unit tests, integration tests, and security scanning in CI pipelines, with pull request reviews required before merging. Our Risk Register tracks potential issues by impact and likelihood, with defined escalation paths from team-level triage to sponsor involvement for business-critical blockers. Every release follows a standardized deployment checklist with rollback plans, and each project concludes with a retrospective that converts learnings into actionable improvements tracked in our backlog.
 
@@ -32,7 +32,13 @@ Browse our comprehensive process documentation to learn more about specific aspe
 
 - **[Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)** — Best practices for running effective retrospectives, tracking action items, and fostering a culture of continuous improvement through measurable changes.
 
-- **[OctoAcme Personas](octoacme-roles-and-personas.md)** — Detailed definitions of key roles (Developers, Product Managers, Project Managers) including responsibilities, goals, and typical communication patterns.
+- **[OctoAcme Personas](octoacme-roles-and-personas.md)** — Detailed definitions of key roles including Developers, Product Managers, Project Managers, QA Lead, Agile Coach, Business Analyst, and UX/UI Designer—specifying responsibilities, goals, workflow interactions, and typical communication patterns. *(Expanded to address [Issue #4](https://github.com/NihadZeidan/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4))*
+
+### Templates & Checklists
+
+- **[Stakeholder Review Checklist](stakeholder-review-checklist.md)** — Comprehensive checklist for stakeholder engagement at key project milestones, including pre-review preparation, review facilitation, post-review actions, and review frequency by phase.
+
+- **[Phase Handoff Guide](phase-handoff-guide.md)** — Detailed guide for smooth transitions between project phases (Initiation → Planning → Execution → Release → Retrospective), including exit criteria, handoff artifacts, role responsibilities, and handoff meeting agendas.
 
 ## Contributing to Our Process
 
