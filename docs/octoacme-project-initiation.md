@@ -13,11 +13,12 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Decide go/no-go for planning
 
 ## Minimum Deliverables
-- Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
-- High-level timeline and key milestones
-- Initial risk list
-- Resource needs (team roles, rough effort estimate)
+- Project One-pager (Problem, Goal, Success Metrics) - PM drafts, PdM reviews
+- Stakeholder list & communication plan - PM responsible, BA assists with stakeholder identification
+- High-level timeline and key milestones - PM accountable
+- Initial risk list - PM maintains, team contributes
+- Resource needs (team roles, rough effort estimate) - PM coordinates with functional leads
+- UX research findings (if applicable) - UX/UI Designer provides
 
 ## Project One-pager Template
 - Project name:
@@ -30,11 +31,15 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Proposed team / roles:
 
 ## Initiation Checklist
-- [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
-- [ ] Decision: Approve to move into planning?
-- [ ] Create repo or project board skeleton
-- [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] One-pager completed and reviewed by Product Lead (PdM accountable)
+- [ ] Sponsor / Stakeholder alignment (email or meeting) - PM coordinates
+- [ ] Decision: Approve to move into planning? - Sponsor/Product Lead decides
+- [ ] Create repo or project board skeleton - PM sets up, Agile Coach configures workflow
+- [ ] Add initial artifacts to repo (docs/ or .copilot/) - PM responsible
+- [ ] UX research completed (if needed) - UX/UI Designer conducts
+- [ ] Initial requirements gathered - BA documents
+
+For detailed role definitions, see [OctoAcme Roles and Personas](octoacme-roles-and-personas.md).
 
 ## Decision Gate
 Move to planning when:
